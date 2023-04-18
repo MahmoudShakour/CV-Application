@@ -1,0 +1,9 @@
+
+
+.header{
+    margin: 0;
+    padding: 20px;
+    display: grid;
+    place-content: center;
+    background-color: darkblue;
+}

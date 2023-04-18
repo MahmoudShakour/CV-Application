@@ -1,0 +1,7 @@
+
+.footer{
+    padding: 10px;
+    display: grid;
+    place-content: center;
+    background-color: darkblue;
+}

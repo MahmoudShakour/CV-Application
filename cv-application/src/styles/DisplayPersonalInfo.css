@@ -1,0 +1,18 @@
+
+.display-personal-info{
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #858484;
+    padding: 15px;
+}
+
+.name{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.title{
+    font-size: 30px;
+}

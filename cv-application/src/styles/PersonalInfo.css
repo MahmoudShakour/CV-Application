@@ -1,0 +1,15 @@
+
+.personal-info{
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #858484;
+    padding: 15px;
+}
+
+.personal-info > * {
+    padding: 5px;
+    font-size: 15px;
+}
+

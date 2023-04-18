@@ -1,0 +1,25 @@
+
+.project-info{
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #858484;
+    padding: 15px;
+}
+
+.project-info * {
+    padding: 5px;
+    font-size: 15px;
+}
+
+.project-info > .buttons {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 0;
+}
+
+.project-info button{
+    flex: 1;
+}
