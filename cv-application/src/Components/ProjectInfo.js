@@ -16,7 +16,7 @@ class ProjectInfo extends Component{
                 <textarea placeholder="Description" rows="3" onChange={(e)=>this.props.handleProjectInput(e,"description")} />
                 <div className="buttons"> 
                     <button onClick={this.props.handleAddProject} >ADD</button>
-                    <button>Clear All</button>
+                    <button onClick={this.props.handleDeleteProject}>Clear All</button>
                 </div>
             </div>     
         );

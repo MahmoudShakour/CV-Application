@@ -38,6 +38,11 @@ class App extends Component {
       this.handleAddExperience=this.handleAddExperience.bind(this);
       this.handleProjectInput=this.handleProjectInput.bind(this);
       this.handleAddProject=this.handleAddProject.bind(this);
+
+      this.handleDeleteExperience=this.handleDeleteExperience.bind(this);
+      this.handleDeleteEducation=this.handleDeleteEducation.bind(this);
+      this.handleDeleteProject=this.handleDeleteProject.bind(this);
+      
     }
 
     handlePersonalInput(e,type){
@@ -123,6 +128,24 @@ class App extends Component {
       });
     }
 
+    handleDeleteExperience(){
+      this.setState({
+        experience:[]
+      });
+    }
+
+    handleDeleteEducation(){
+      this.setState({
+        education:[]
+      });
+    }
+
+    handleDeleteProject(){
+      this.setState({
+        projects:[]
+      });
+    }
+
 
     render(){
       
@@ -139,6 +162,9 @@ class App extends Component {
             handleAddExperience={this.handleAddExperience}
             handleProjectInput={this.handleProjectInput}
             handleAddProject={this.handleAddProject}
+            handleDeleteEducation={this.handleDeleteEducation}
+            handleDeleteExperience={this.handleDeleteExperience}
+            handleDeleteProject={this.handleDeleteProject}
           />
           <Footer/>
         </div>

@@ -17,7 +17,7 @@ class EducationalInfo extends Component{
                 <textarea placeholder="Details" rows="3" onChange={(e)=>this.props.handleEducationInput(e,"details")} />
                 <div className="buttons">
                     <button onClick={this.props.handleAddEducation} >ADD</button>
-                    <button>Clear All</button>
+                    <button onClick={this.props.handleDeleteEducation} >Clear All</button>
                 </div>
             </div>
         );

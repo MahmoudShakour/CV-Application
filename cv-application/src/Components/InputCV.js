@@ -22,14 +22,17 @@ class InputCV extends Component{
                 <EducationalInfo
                     handleEducationInput={this.props.handleEducationInput}
                     handleAddEducation={this.props.handleAddEducation} 
+                    handleDeleteEducation={this.props.handleDeleteEducation}
                 />
                 <ExperienceInfo
+                    handleDeleteExperience={this.props.handleDeleteExperience}
                     handleExperienceInput={this.props.handleExperienceInput}
                     handleAddExperience={this.props.handleAddExperience} 
                 />
                 <ProjectInfo
                     handleProjectInput={this.props.handleProjectInput}
                     handleAddProject={this.props.handleAddProject}
+                    handleDeleteProject={this.props.handleDeleteProject}
                 />
             </div>
         );

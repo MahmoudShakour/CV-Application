@@ -23,6 +23,9 @@ class Container extends Component{
                     handleAddExperience={this.props.handleAddExperience} 
                     handleProjectInput={this.props.handleProjectInput}
                     handleAddProject={this.props.handleAddProject}
+                    handleDeleteEducation={this.props.handleDeleteEducation}
+                    handleDeleteExperience={this.props.handleDeleteExperience}
+                    handleDeleteProject={this.props.handleDeleteProject}
                 />
                 <DisplayCV data={this.props.data} />
             </div>

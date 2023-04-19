@@ -19,7 +19,7 @@ class ExperienceInfo extends Component{
                 <textarea placeholder="Description" rows="3" onChange={ (e)=>this.props.handleExperienceInput(e,"description")} />
                 <div className="buttons">
                     <button onClick={this.props.handleAddExperience} >ADD</button>
-                    <button>Clear All</button>
+                    <button onClick={this.props.handleDeleteExperience} >Clear All</button>
                 </div>
             </div>
         );
