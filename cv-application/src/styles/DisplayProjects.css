@@ -1,0 +1,14 @@
+.projects-list{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.project-title{
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.project-description{
+    font-size: 20px;
+}

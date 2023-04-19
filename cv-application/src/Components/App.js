@@ -14,7 +14,7 @@ class App extends Component {
         personalInfo: {
           firstName:"Mahmoud",
           lastName:"Shakour",
-          title: "sakaly",
+          title: "Computer Engineering Student",
           phoneNumber:"+201062591395",
           address:"elmarsah,mansoura,egypt",
           email:"mahmoud.ali1842001@gmail.com"

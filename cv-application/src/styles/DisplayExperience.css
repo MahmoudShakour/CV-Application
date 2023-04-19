@@ -1,0 +1,29 @@
+.experience-list{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.experience-item{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.experience-item-headline{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.experience-item-position{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.experience-item-description,
+.experience-item-date
+{
+   font-size: 20px;
+}
+

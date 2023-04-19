@@ -8,11 +8,21 @@
     padding: 15px;
 }
 
+.display-personal-info * {
+    font-size: 25px;
+}
+
 .name{
     font-size: 50px;
     font-weight: bold;
 }
 
 .title{
-    font-size: 30px;
+    font-size: 40px;
+}
+
+.item-container{
+    display: flex;
+    align-items: center;
+    gap: 20px;
 }

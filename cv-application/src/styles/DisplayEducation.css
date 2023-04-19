@@ -1,0 +1,36 @@
+.education-list{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.education-item{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.education-item-headline{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.education-item-institute{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.education-item-date{
+    font-size: 20px;
+}
+
+.education-item-grade{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.education-item-details{
+    font-size: 20px;
+}
+

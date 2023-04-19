@@ -13,9 +13,9 @@ class DisplayContainer extends Component{
     render(){
         return(
             <div className="display-container">
-                    <DisplayProjects data={this.props.data} />
                     <DisplayEducation data={this.props.data}/>
                     <DisplayExperience data={this.props.data} />
+                    <DisplayProjects data={this.props.data} />
             </div>
         );
     }
